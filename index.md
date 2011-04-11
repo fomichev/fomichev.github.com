@@ -1,8 +1,7 @@
-<html>
-<head>
-	<title>Test</title>
-</head>
-<body>
+---
+title: Home
+layout: default
+---
 
 Markdown test
 =============
@@ -15,5 +14,3 @@ List
 
 Here goes *emphasis*.
 
-</body>
-</html>
