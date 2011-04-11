@@ -12,5 +12,6 @@ Links
 -----
 * [GitHub](http://github.com/fomichev)
 * [LinkedIn](http://ru.linkedin.com/pub/stanislav-fomichev/25/860/646)
+* [Launchpad](http://launchpad.net/~sdf)
 
 More about me you can find in my [curriculum vitae](/todo).
