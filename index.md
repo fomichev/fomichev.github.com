@@ -6,7 +6,7 @@ layout: default
 Stanislav Fomichev
 ==================
 
-I am CS student at [National Research Nuclear University MEPhI](http://mephi.ru) in Moscow. I also do full-time job at [EpsCom](http://epscom.net) as an Embedded Engineer. In my spare time I ocassionally contribute to the [Linux](http://kernel.org) kernel.
+I am CS student at [National research nuclear university MEPhI](http://mephi.ru/eng/) in Moscow. I also do full-time job at [EpsCom](http://epscom.net) as an Embedded Engineer. In my spare time I ocassionally contribute to the [Linux](http://kernel.org) kernel.
 
 Links
 -----
