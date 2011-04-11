@@ -1,0 +1,13 @@
+body {
+	width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-top: 1em;
+	font-family: "Georgia",serif;
+	font-size: 1.3em;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
