@@ -11,3 +11,26 @@ body {
 h1, h2 {
 	font-weight: normal;
 }
+
+a{
+	font-size: 0.8em;
+	background: #3357AB;
+	padding: 1px 5px 1px 5px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+a:hover{
+	background: #687DB0;
+	padding: 1px 5px 1px 5px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
