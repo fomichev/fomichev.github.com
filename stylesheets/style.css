@@ -4,7 +4,7 @@ body {
 	margin-right: auto;
 
 	padding-top: 1em;
-	font-family: "Georgia",serif;
+	font-family: "Georgia", serif;
 	font-size: 1.3em;
 }
 
@@ -12,7 +12,7 @@ h1, h2 {
 	font-weight: normal;
 }
 
-a{
+a {
 	font-size: 0.8em;
 	background: #3357AB;
 	padding: 1px 5px 1px 5px;
@@ -20,7 +20,7 @@ a{
 	border-radius: 4px;
 }
 
-a:hover{
+a:hover {
 	background: #687DB0;
 	padding: 1px 5px 1px 5px;
 	text-decoration: none;
