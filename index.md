@@ -20,6 +20,4 @@ Links
 More about me you can find in my [curriculum vitae](/todo).
 If you need to contact me, my email is encoded in the QR code below.
 
-<span id="qr">
-![Mail](/data/mail.png)
-</span>
+<div id="qr"><img src="/data/mail.png" alt="QR mail"></div>
