@@ -18,3 +18,6 @@ Links
 * [Facebook](http://www.facebook.com/people/Stanislav-Fomichev/1409375470) - mostly unused
 
 More about me you can find in my [curriculum vitae](/todo).
+If you need to contact me, my email is encoded in the QR code below.
+
+![Mail](/data/mail.png)
