@@ -35,12 +35,8 @@ a:visited {
 	color: #fff;
 }
 
-#qr {
-    height: 100px;
-    line-height: 100px;
-}
-
-#qr img {
-    vertical-align: middle;
-    max-height: 100%;
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
