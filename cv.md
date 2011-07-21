@@ -6,13 +6,7 @@ layout: default
 Fomichev Stanislav
 ==================
 
-<table>
-	<tr>
-		<td>Moscow, Russia</td>
-		<td>+7 926 738-52-04</td>
-		<td>s@fomichev.me</td>
-	</tr>
-</table>
+Moscow, Russia &nbsp;·&nbsp; +7 926 738-52-04 &nbsp;·&nbsp; s@fomichev.me
 
 Objective
 ---------
