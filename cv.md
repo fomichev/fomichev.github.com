@@ -1,3 +1,8 @@
+---
+title: Stanislav Fomichev
+layout: default
+---
+
 Fomichev Stanislav
 ==================
 
