@@ -13,18 +13,23 @@ Objective
 
 Embedded software development; Linux kernel development
 
-Skills and Knowledge
---------------------
-* Production C89/C99 experience since 2008
-* Familiar with GNU toolchain, Make, GDB, autotools, Diff, Patch, Quilt
-* Linux 2.6.x/3.x kernel internals for drivers development
+Technical Skills
+----------------
+
+### Programming Languages
+* Proficient in C
+* Familiar with C++, <!--Java, -->Python
+
+### Software Management
+* GNU toolchain, Make, GDB, autotools, Diff, Patch, Quilt
 * Knowledge of OpenWRT (http://openwrt.org) build system
 * Distributed version control with Mercurial and Git
+
+### Operating Systems and Environments
+* Linux 2.6.x/3.x kernel internals (drivers development)
+* Lauterbach debugger basics (debugged MIPS 34k U-boot network driver)
 * GNU/Linux user (Fedora/Ubuntu/Debian)
 * Everyday user of Vim, Screen, Bash (including scripting), Mutt
-* Lauterbach debugger basics (debugged MIPS 34k U-boot network driver)
-* Basic knowledge of Python, GTK+, Qt4, HTML, Javascript, LaTeX
-* Limited experience with C++, OOP (without patterns)
 
 Languages
 ---------
