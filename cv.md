@@ -8,22 +8,18 @@ Fomichev Stanislav
 
 Moscow, Russia &nbsp;·&nbsp; +7 926 738-52-04 &nbsp;·&nbsp; s@fomichev.me
 
-Objective
----------
-
-Embedded software development; Linux kernel development
-
-Technical Skills
-----------------
+Skills
+------
 
 ### Programming Languages
 * Proficient in C
 * Familiar with C++, <!--Java, -->Python
+<!-- * Understanding of OOP and design patterns -->
 
 ### Software Management
-* GNU toolchain, Make, GDB, autotools, Diff, Patch, Quilt
-* Knowledge of OpenWRT (http://openwrt.org) build system
-* Distributed version control with Mercurial and Git
+* Familiar with GNU toolchain, Make, GDB, Autotools, Diff, Patch, Quilt
+* Understanding of OpenWRT (http://openwrt.org) build system
+* Experienced with distributed revision control using Mercurial and Git
 
 ### Operating Systems and Environments
 * Linux 2.6.x/3.x kernel internals (drivers development)
@@ -31,12 +27,11 @@ Technical Skills
 * GNU/Linux user (Fedora/Ubuntu/Debian)
 * Everyday user of Vim, Screen, Bash (including scripting), Mutt
 
-Languages
----------
-* _Russian:_ Native
-* _English:_ Advanced
+### Foreign languages
+* Advanced English
+* Native Russian
 
-Experience
+Employment
 ----------
 
 * _October 2008 - till date_ Software Engineer
@@ -51,6 +46,7 @@ Experience
 	* Implemented parts of Linux Ethernet and GPON drivers
 	* Ported NAND and SPI Flash drivers from U-boot to Linux
 	* Ported VoIP, crypto drivers to the new versions of Linux kernel/board architectures
+	* Ported board support package to fresh versions of Linux
 -->
 
 Education
