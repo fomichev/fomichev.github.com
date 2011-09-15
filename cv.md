@@ -14,16 +14,22 @@ Skills
 ### Programming Languages
 * Proficient in C
 * Familiar with C++, <!--Java, -->Python
-<!-- * Understanding of OOP and design patterns -->
+<!--
+* Understanding of OOP and design patterns
+-->
 
-### Software Management
+### Software and Tools
 * Familiar with GNU toolchain, Make, GDB, Autotools, Diff, Patch, Quilt
+<!--
 * Understanding of OpenWRT (http://openwrt.org) build system
+-->
 * Experienced with distributed revision control using Mercurial and Git
 
 ### Operating Systems and Environments
 * Linux 2.6.x/3.x kernel internals (drivers development)
+<!--
 * Lauterbach debugger basics (debugged MIPS 34k U-boot network driver)
+-->
 * GNU/Linux user (Fedora/Ubuntu/Debian)
 * Everyday user of Vim, Screen, Bash (including scripting), Mutt
 
