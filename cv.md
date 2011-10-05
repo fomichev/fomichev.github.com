@@ -13,24 +13,15 @@ Skills
 
 ### Programming Languages
 * Proficient in C
-* Familiar with C++, <!--Java, -->Python
-<!--
+* Familiar with C++, Java, Python
 * Understanding of OOP and design patterns
--->
 
 ### Software and Tools
 * Familiar with GNU toolchain, Make, GDB, Autotools, Diff, Patch, Quilt
-<!--
-* Understanding of OpenWRT (http://openwrt.org) build system
--->
 * Experienced with distributed revision control using Mercurial and Git
 
 ### Operating Systems and Environments
 * Linux 2.6.x/3.x kernel internals (drivers development)
-<!--
-* Lauterbach debugger basics (debugged MIPS 34k U-boot network driver)
--->
-* GNU/Linux user (Fedora/Ubuntu/Debian)
 * Everyday user of Vim, Screen, Bash (including scripting), Mutt
 
 ### Foreign languages
@@ -40,9 +31,11 @@ Skills
 Employment
 ----------
 
-* _October 2008 - till date_ Software Engineer
+* _October 2008 - present_ [EPSCom AG](http://epscom.net)
 
-	[EPSCom AG](http://epscom.net) - ISO 9001 certified outsourcing company, full-time
+	ISO 9001 certified outsourcing company, full-time
+
+	Position: Software Engineer
 
 <!--
 	Working on [Lantiq Deutschland GmbH](http://lantiq.com):
@@ -57,10 +50,10 @@ Employment
 
 Education
 ---------
-* _2008 - 2013_ National research nuclear university "MEPhI" (Moscow)
+* _2008 - 2013 (anticipated)_ National research nuclear university "MEPhI" (Moscow)
 
 	Computers, computer-based complexes, systems and networks - Specialist
 
 * _2004 - 2008_ College of Math (Moscow)
 
-	Computers, computer systems, their software - Technician programmer
+	Computers, computer systems, their software - Technician
