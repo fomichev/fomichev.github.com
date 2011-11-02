@@ -37,7 +37,7 @@ Employment
 
 	Position:
 
-	* Senior Software Enginer (2011 - present)
+	* Senior Software Engineer (2011 - present)
 	* Software Engineer (2008 - 2011)
 
 <!--
