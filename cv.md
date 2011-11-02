@@ -37,8 +37,8 @@ Employment
 
 	Position:
 
-	* Software Engineer (2008 - 2011)
 	* Senior Software Enginer (2011 - present)
+	* Software Engineer (2008 - 2011)
 
 <!--
 	Working on [Lantiq Deutschland GmbH](http://lantiq.com):
