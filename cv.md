@@ -3,7 +3,7 @@ title: Stanislav Fomichev
 layout: default
 ---
 
-Fomichev Stanislav
+Stanislav Fomichev
 ==================
 
 Moscow, Russia &nbsp;·&nbsp; +7 926 738-52-04 &nbsp;·&nbsp; s@fomichev.me
@@ -12,8 +12,9 @@ Skills
 ------
 
 ### Programming Languages
-* Proficient in C
+* Proficient with C
 * Familiar with C++, Java, Python
+* Knowledge of bash scripting
 * Understanding of OOP and design patterns
 
 ### Software and Tools
@@ -22,7 +23,7 @@ Skills
 
 ### Operating Systems and Environments
 * Linux 2.6.x/3.x kernel internals (drivers development)
-* Everyday user of Vim, Screen, Bash (including scripting), Mutt
+* Everyday user of Vim, Tmux(Screen), Bash, Mutt
 
 ### Foreign languages
 * Advanced English
@@ -30,12 +31,14 @@ Skills
 
 Employment
 ----------
-
 * _October 2008 - present_ [EPSCom AG](http://epscom.net)
 
 	ISO 9001 certified outsourcing company, full-time
 
-	Position: Software Engineer
+	Position:
+
+	* Software Engineer (2008 - 2011)
+	* Senior Software Enginer (2011 - present)
 
 <!--
 	Working on [Lantiq Deutschland GmbH](http://lantiq.com):
