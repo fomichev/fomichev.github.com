@@ -13,8 +13,7 @@ Skills
 
 ### Programming Languages
 * Proficient with C
-* Familiar with C++, Java, Python
-* Knowledge of bash scripting
+* Knowledge of C++, Java, Python, Bash scripting
 * Understanding of OOP and design patterns
 
 ### Software and Tools
@@ -23,7 +22,7 @@ Skills
 
 ### Operating Systems and Environments
 * Linux 2.6.x/3.x kernel internals (drivers development)
-* Everyday user of Vim, Tmux(Screen), Bash, Mutt
+* Everyday user of Vim, Tmux, Bash, Mutt
 
 ### Foreign languages
 * Advanced English
@@ -42,7 +41,7 @@ Employment
 
 <!--
 	Working on [Lantiq Deutschland GmbH](http://lantiq.com):
-	* Implemented complete OMCI (ITU G.984.4) protocol stack (userspace)
+	* Implemented complete OMCI (ITU G.984.4) protocol stack (userspace) for MIPS based board
 	* Implemented U-boot Ethernet and GPIO drivers
 	* Implemented Linux I2C, SPI drivers
 	* Implemented parts of Linux Ethernet and GPON drivers
