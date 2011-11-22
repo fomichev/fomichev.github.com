@@ -13,7 +13,7 @@ Skills
 
 ### Programming Languages
 * Proficient with C
-* Some experience with C++, Objective-C, Java, Python, Bash scripting
+* Some experience with C++, Objective-C, Python
 * Understanding of OOP and design patterns
 
 ### Software and Tools
