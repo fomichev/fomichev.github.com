@@ -40,14 +40,12 @@ Employment
 	* Software Engineer (2008 - 2011)
 
 <!--
-	Working on [Lantiq Deutschland GmbH](http://lantiq.com):
-	* Implemented complete OMCI (ITU G.984.4) protocol stack (userspace) for MIPS based board
+	For customer [Lantiq Deutschland GmbH](http://lantiq.com):
+	* Implemented complete OMCI (ITU G.984.4) protocol stack (userspace) for MIPS board
 	* Implemented U-boot Ethernet and GPIO drivers
-	* Implemented Linux I2C, SPI drivers
-	* Implemented parts of Linux Ethernet and GPON drivers
+	* Implemented Linux I2C, SPI drivers and parts of Ethernet and GPON drivers
 	* Ported NAND and SPI Flash drivers from U-boot to Linux
-	* Ported VoIP, crypto drivers to the new versions of Linux kernel/board architectures
-	* Ported board support package to fresh versions of Linux
+	* Ported VoIP, crypto and BSP drivers to the new versions of Linux kernel/board architectures
 -->
 
 Education
