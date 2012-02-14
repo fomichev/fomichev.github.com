@@ -6,14 +6,8 @@ layout: default
 Fomichev Stanislav
 ==================
 
-In the age of social web it's not common to have a homepage. But since I mainly use this domain for my mailbox and I don't like the idea of having empty page I decided to put some information about me here.
-
-I am CS student at [National research nuclear university MEPhI](http://mephi.ru/eng/) in Moscow. I also do full-time job at [EPSCom](http://epscom.net) as an Embedded Software Engineer. In my spare time I occasionally [contribute](http://git.kernel.org/?p=linux%2Fkernel%2Fgit%2Fnext%2Flinux-next.git&a=search&h=HEAD&st=commit&s=Stanislav+Fomichev) to the Linux kernel.
-
-All about my experience you can find in my <!--[curriculum vitae](/cv.html) or -->[LinkedIn](http://ru.linkedin.com/pub/stanislav-fomichev/25/860/646) profile.
-My toy projects are hosted on the [GitHub](http://github.com/fomichev).
-Occasionally I use social services like [Facebook](http://www.facebook.com/people/Stanislav-Fomichev/1409375470) and [VKontakte](http://vkontakte.ru/id2623851).
-
-If you need to contact me, my email is encoded in the QR code below.
-
-![QR mail](/data/mail.png)
+* [LinkedIn](http://ru.linkedin.com/pub/stanislav-fomichev/25/860/646)
+* [GitHub](http://github.com/fomichev)
+* [Twitter](http://twitter.com/sdfomichev)
+* [Facebook](http://www.facebook.com/people/Stanislav-Fomichev/1409375470)
+* [VKontakte](http://vkontakte.ru/id2623851)
