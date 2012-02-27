@@ -1,6 +1,6 @@
 ---
 title: Stanislav Fomichev
-layout: default
+layout: cv
 ---
 
 Stanislav Fomichev
