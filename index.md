@@ -3,7 +3,7 @@ title: Stanislav Fomichev
 layout: default
 ---
 
-Fomichev Stanislav
+Stanislav Fomichev
 ==================
 
 [LinkedIn](http://ru.linkedin.com/pub/stanislav-fomichev/25/860/646)
