@@ -33,7 +33,7 @@ layout: cv
 * Ported OMCI application and GPON drivers to eCos
 
 ## 2008 - 2011, Software Engineer, [EPSCom AG](http://epscom.net)
-For [Lantiq Deutschland GmbH](http://www.lantiq.com) customer:
+<!---For [Lantiq Deutschland GmbH](http://www.lantiq.com) customer:-->
 
 * Implemented complete OMCI (ITU G.984.4/G.988) protocol stack (userspace) for MIPS board
 * Implemented U-boot Ethernet and GPIO drivers
