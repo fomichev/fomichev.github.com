@@ -1,0 +1,112 @@
+#!/usr/bin/env ruby
+
+require 'redcarpet'
+
+class CvRender < Redcarpet::Render::Base
+  def header(text, level)
+    case level
+    when 1
+      case text
+      when 'Skills'
+        @state = :skills
+        "\\section{Skills}\n\\begin{sklist}\n"
+      when 'Experience'
+        @state = :experience
+        "\\end{sklist}\n\\section{Experience}\n\\begin{joblist}\n"
+      when 'Education'
+        @state = :education
+        "\\end{joblist}\n\\section{Education}\n\\begin{edulist}\n"
+      else
+        raise "Can't parse NAME header'#{text}'" unless text =~ /^(.*)\s<(.*)>$/
+        @name = $1
+        @email = $2
+
+        @state = :name
+        nil
+      end
+    else
+      case @state
+      when :skills
+        "\\sk{#{text}}"
+      when :experience
+        re = %r{
+          ^
+          (?<duration>[^,]*),\s*
+          (?<title>[^,]*),\s*
+          \\href\{(?<link>.*)\}
+          \{(?<employer>.*)\}
+          $
+        }x
+
+        r = text.match(re)
+        raise "Can't parse JOB '#{text}'" unless r
+
+        "\\job{#{r[:duration]}}{#{r[:title]}}{#{r[:link]}}{#{r[:employer]}}\n"
+      when :education
+        re = %r{
+          ^
+          (?<duration>.*),\s*
+          (?<degree>.*),\s*
+          \\href\{(?<link>.*)\}
+          \{(?<university>.*)\}
+          $
+        }x
+
+        r = text.match(re)
+        raise "Can't parse EDUCATION '#{text}'" unless r
+
+        "\\edu{#{r[:duration]}}{#{r[:degree]}}{#{r[:link]}}{#{r[:university]}}"
+      end
+    end
+  end
+
+  def list_item(item, type)
+    if @state == :skills
+      "  \\par #{item}"
+    else
+      "  \\par -- #{item}"
+    end
+  end
+
+  def list(contents, type)
+    if @list_header
+      result = "{\n#{@list_header}\n#{contents}  }\n"
+      @list_header = nil
+      result
+    else
+      "{\n#{contents}}\n"
+    end
+  end
+
+  def link(link, title, content)
+    link.gsub!(/&/, '\\\\&')
+    link.gsub!(/%/, '\\\\%')
+
+    "\\href{#{link}}{#{content}}"
+  end
+
+  def paragraph(text)
+    case @state
+    when :education
+    "{#{text.strip}}\n"
+
+    when :name
+      info = text.split(/,\s+/)
+      @phone = info.shift
+      @address = info.join(', ')
+
+      "\\mktitle{#{@name}}{#{@address}}{#{@phone}}{#{@email}}\n"
+    else
+      @list_header = "  #{text.strip}"
+      nil
+    end
+  end
+end
+
+markdown = Redcarpet::Markdown.new(CvRender)
+puts '\documentclass{cv}'
+puts
+puts '\begin{document}'
+puts markdown.render(STDIN.read.sub(/---[^-]*---/, ''))
+puts '\end{edulist}'
+puts '\end{document}'
