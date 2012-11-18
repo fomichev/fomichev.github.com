@@ -20,7 +20,6 @@ layout: cv
 
 ## Operating systems and environments
 * Linux 2.6.x/3.x and eCos kernels internals (drivers development)
-* Installed and maintained build server running Debian (SSH, SMB, TFTP, NFS, etc)
 * Everyday user of Vim, Tmux, Bash, Mutt
 
 ## Foreign languages
@@ -38,6 +37,7 @@ layout: cv
 * Implemented Linux I2C and SPI drivers, as well as parts of Ethernet and GPON drivers
 * Ported NAND and SPI Flash drivers from U-boot to Linux
 * Ported VoIP, crypto and other BSP drivers to the new versions of Linux kernel/board architectures
+* Installed and maintained build server running Debian (SSH, SMB, TFTP, NFS, etc)
 
 ## 2011 - present, Open source, [Github](http://github.com/fomichev)
 * Small fixes for [Linux kernel](http://git.kernel.org/?p=linux%2Fkernel%2Fgit%2Ftorvalds%2Flinux.git&a=search&h=HEAD&st=commit&s=Stanislav+Fomichev)
