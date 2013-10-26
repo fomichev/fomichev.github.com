@@ -13,10 +13,11 @@ class CvRender < Redcarpet::Render::Base
         "\\section{Skills}\n\\begin{sklist}\n"
       when 'Experience'
         @state = :experience
+        @jobs = 0
         "\\end{sklist}\n\\section{Experience}\n\\begin{joblist}\n"
       when 'Education'
         @state = :education
-        "\\end{joblist}\n\\section{Education}\n\\begin{edulist}\n"
+        "}\n\\end{joblist}\n\\section{Education}\n\\begin{edulist}\n"
       else
         raise "Can't parse NAME header'#{text}'" unless text =~ /^(.*)\s<(.*)>$/
         @name = $1
@@ -42,7 +43,10 @@ class CvRender < Redcarpet::Render::Base
         r = text.match(re)
         raise "Can't parse JOB '#{text}'" unless r
 
-        "\\job{#{r[:duration]}}{#{r[:title]}}{#{r[:link]}}{#{r[:employer]}}\n"
+        jobend = @jobs != 0 ? "}\n" : ""
+        @jobs += 1
+
+        "#{jobend}\\job{#{r[:duration]}}{#{r[:title]}}{#{r[:link]}}{#{r[:employer]}}{\n"
       when :education
         re = %r{
           ^
@@ -70,12 +74,10 @@ class CvRender < Redcarpet::Render::Base
   end
 
   def list(contents, type)
-    if @list_header
-      result = "{\n#{@list_header}\n#{contents}  }\n"
-      @list_header = nil
-      result
+    if @state == :skills
+      "{\n#{contents}\n}"
     else
-      "{\n#{contents}}\n"
+      "\n#{contents}\n"
     end
   end
 
@@ -98,8 +100,7 @@ class CvRender < Redcarpet::Render::Base
 
       "\\mktitle{#{@name}}{#{@address}}{#{@phone}}{#{@email}}\n"
     else
-      @list_header = "  #{text.strip}"
-      nil
+      text.strip
     end
   end
 end
