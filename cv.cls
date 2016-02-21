@@ -25,8 +25,8 @@
 \geometry{
   body={6.5in, 8.5in},
   left=1.0in,
-  top=1.0in,
-  bottom=1.0in
+  top=0.5in,
+  bottom=0.5in
 }
 
 \setcounter{secnumdepth}{-1}

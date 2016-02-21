@@ -9,16 +9,10 @@ layout: cv
 
 # Skills
 
-## Programming languages
-* Proficient with C
-* Familiar with C++, Ruby, Python, Shell scripting
-
-## Software and tools
-* GNU toolchain, Make, GDB, Autotools, Diff, Patch, Quilt, Git
-
-## Operating systems and environments
-* Understanding of Linux kernel internals
-* Everyday user of Vim, Tmux, Bash, Mutt
+* C/C++, Go, Python, Shell scripting
+* Understanding of Linux kernel/system internals
+* Understanding of network theory and main network protocols
+* Troubleshooting of large-scale distributed systems
 
 ## Foreign languages
 * Fluent English
@@ -26,10 +20,16 @@ layout: cv
 
 # Experience
 
-## 2013 - Present, Software Engineer, [Yandex](http://yandex.ru)
-Fiddling with Linux kernel
+## Sep 2015 - Present, SRE, [Google](http://google.com)
 
-## 2008 - 2013, Software Engineer, [EPSCom AG](http://epscom.net)
+## Aug 2013 - Aug 2015, Software Engineer, [Yandex](http://yandex.ru)
+
+* Implemented initial version of Linux container management system (http://github.com/yandex/porto)
+* As part of a team made Yandex specific adaptations for Linux Kernel and fixed bugs
+* perf timechart: implemented io mode, backtrace and other features (upstreamed)
+* perf trace: implemented page fault tracing (upstreamed)
+
+## Sep 2008 - Aug 2013, Software Engineer, [EPSCom AG](http://epscom.net)
 Consulting for [Lantiq Deutschland GmbH](http://lantiq.com):
 
 * Implemented complete OMCI (ITU G.984.4/G.988) protocol stack in the
