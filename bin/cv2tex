@@ -8,13 +8,13 @@ class CvRender < Redcarpet::Render::Base
     case level
     when 1
       case text
-      when 'Skills'
+      when 'Languages and Technologies'
         @state = :skills
-        "\\section{Skills}\n\\begin{sklist}\n"
-      when 'Experience'
+        "\\end{edulist}\n\\section{Skills}\n\\begin{sklist}\n"
+      when 'Employment'
         @state = :experience
         @jobs = 0
-        "\\end{sklist}\n\\section{Experience}\n\\begin{joblist}\n"
+        "\\section{Experience}\n\\begin{joblist}\n"
       when 'Education'
         @state = :education
         "}\n\\end{joblist}\n\\section{Education}\n\\begin{edulist}\n"
@@ -51,7 +51,6 @@ class CvRender < Redcarpet::Render::Base
         re = %r{
           ^
           (?<duration>.*),\s*
-          (?<degree>.*),\s*
           \\href\{(?<link>.*)\}
           \{(?<university>.*)\}
           $
@@ -60,7 +59,7 @@ class CvRender < Redcarpet::Render::Base
         r = text.match(re)
         raise "Can't parse EDUCATION '#{text}'" unless r
 
-        "\\edu{#{r[:duration]}}{#{r[:degree]}}{#{r[:link]}}{#{r[:university]}}"
+        "\\edu{#{r[:duration]}}{}{#{r[:link]}}{#{r[:university]}}"
       end
     end
   end
@@ -110,5 +109,5 @@ puts '\documentclass{cv}'
 puts
 puts '\begin{document}'
 puts markdown.render(STDIN.read.sub(/---[^-]*---/, ''))
-puts '\end{edulist}'
+puts '\end{sklist}'
 puts '\end{document}'

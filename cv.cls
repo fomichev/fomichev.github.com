@@ -16,7 +16,7 @@
   colorlinks = true,
   urlcolor = red,
   pdfauthor = {Stanislav Fomichev},
-  pdfkeywords = {economics, statistics, mathematics},
+  pdfkeywords = {software engineering},
   pdftitle = {Stanislav Fomichev: Curriculum Vitae},
   pdfsubject = {Curriculum Vitae},
   pdfpagemode = UseNone
@@ -66,6 +66,6 @@
 { \endtabularx }
 
 \newcommand{\edu}[5]
-{ \emph{#1} & \textbf{#2} & \href{#3}{#4} \\
+{ \emph{#1} & \href{#3}{#4} \\
             & \multicolumn{2}{X}{#5} \\
             & & \\ }
