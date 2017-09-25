@@ -97,6 +97,8 @@ class CvRender < Redcarpet::Render::Base
       @phone = info.shift
       @address = info.join(', ')
 
+      @state = :desc
+
       "\\mktitle{#{@name}}{#{@address}}{#{@phone}}{#{@email}}\n"
     else
       text.strip

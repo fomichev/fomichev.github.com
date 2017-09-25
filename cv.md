@@ -7,26 +7,28 @@ layout: cv
 
 +1 (650) 772-03-78, San Jose, CA
 
+Software Engineer with experience in low-level/embedded systems and Linux Kernel internals/drivers.
+
 # Employment
 
-## Sep 2015 - Present, Site Reliability Engineer, [Google](http://google.com)
+## Sep 2015 - Present, Systems Engineer, [Google](http://google.com)
 
-* FIXME: Mesa (http://research.google.com/pubs/pub42851.html)
+* Working on a system which horizontally scales containers
+* Working on performance optimization projects
 
-## Aug 2013 - Aug 2015, Software Engineer, [Yandex](http://yandex.ru)
+## Aug 2013 - Aug 2015, Software Engineer (Linux Kernel), [Yandex](http://yandex.ru)
 
-* Implemented initial version of Linux container management system (https://github.com/yandex/porto)
-* Improved tools for Linux Kernel performance analysis ([perf timechart / perf trace](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=Stanislav+Fomichev))
-* As part of a team made Yandex specific adaptations for Linux Kernel and various fixed bugs (https://github.com/yandex/smart)
-* Supported Linux kernel and container management system, which included troubleshooting and maintaining a system which runs on tenths of thousands of machines
+* Contributed to Yandex Linux kernel tree, which included bug fixes and various performance improvement projects; submitted 20+ patches to [upstream Linux kernel tree](http://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=stfomichev%40yandex-team.ru)
+* Improved tools for Linux Kernel performance analysis ([perf timechart / perf trace](http://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=Stanislav+Fomichev))
+* Implemented initial version of [Porto](https://github.com/yandex/porto/blob/master/AUTHORS), Linux container management system
 
-## Sep 2008 - Aug 2013, Software Engineer, [EPSCom AG](http://epscom.net)
+## Sep 2008 - Aug 2013, Software Engineer (Embedded), [EPSCom AG](http://epscom.net)
+
 Consulting for [Lantiq Deutschland GmbH](http://lantiq.com):
 
-* Implemented complete OMCI (ITU G.984.4/G.988) protocol stack in the userspace for MIPS board
-* Implemented and ported various U-boot and Linux drivers (NAND/SPI flashes, GPIO, I2C, SPI, parts of Ethernet and GPON drivers)
-* Ported OMCI application, GPON and various BSP drivers (Ethernet, SPI, NOR, Watchdog) to [eCos](http://ecos.sourceware.org)
-* Supported and extended debugging application (Qt/C++ and Python)
+* Implemented complete OMCI (ITU G.984.4/G.988) protocol stack in userspace for MIPS evaluation board
+* Implemented U-boot and Linux drivers (NAND/SPI flashes, GPIO, I2C, SPI, parts of Ethernet and GPON drivers)
+* Ported OMCI application, GPON and various BSP drivers (Ethernet, SPI, NOR, Watchdog) to [eCos](http://ecos.sourceware.org) operating system
 
 # Education
 
