@@ -18,7 +18,8 @@ Software Engineer with experience in low-level/embedded systems and Linux Kernel
 
 ## Aug 2013 - Aug 2015, Software Engineer (Linux Kernel), [Yandex](http://yandex.ru)
 
-* Contributed to Yandex Linux kernel tree, which included bug fixes and various performance improvement projects; submitted 20+ patches to [upstream Linux kernel tree](http://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=stfomichev%40yandex-team.ru)
+* Contributed to Yandex Linux kernel tree, which included bug fixes and various performance improvement projects
+* Submitted 20+ patches to [upstream Linux kernel tree](http://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=stfomichev%40yandex-team.ru)
 * Improved tools for Linux Kernel performance analysis ([perf timechart / perf trace](http://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=grep&q=Stanislav+Fomichev))
 * Implemented initial version of [Porto](https://github.com/yandex/porto/blob/master/AUTHORS), Linux container management system
 
