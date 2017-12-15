@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/fomichev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://fomichev.me
+  * I am fomichev (https://keybase.io/fomichev) on keybase.
+  * I have a public key with fingerprint F764 48FA 956A 346A 12A1  FC1E DABE BF20 2858 B5B1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c7efe0417e72b4bbb8e2c05c76c6bee908222bfbe8e2047648054d70649055a40a",
+      "fingerprint": "f76448fa956a346a12a1fc1edabebf202858b5b1",
+      "host": "keybase.io",
+      "key_id": "dabebf202858b5b1",
+      "kid": "0101c7efe0417e72b4bbb8e2c05c76c6bee908222bfbe8e2047648054d70649055a40a",
+      "uid": "8bd3256b3a6f4dd167a8332231b67e19",
+      "username": "fomichev"
+    },
+    "service": {
+      "hostname": "fomichev.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1513363354,
+  "expire_in": 157680000,
+  "prev": "6cd84342fcd60f76786ee26c291189daf825c5dcced7005f67f08841acf3da4a",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJbSBVBGD6mlpmBUWhXyK3ogsrsZWbnHIlCC8oCDUyipOPM7qxues4e
+9xwtb0hWSkZQYDcvFJWQ9mAFXR7CLE+EFyoCC7JSyod8CCGzK1izUi/RY/My/P98
+3zff/82E50a6YiMaeje1pdfWV0T03z9V6tqtJDZVCtTSywVPpVDEpjdWrLNgyFtk
+6oJHACIQNZUZDCiiylSJKpRSzCQNQE1FGqKMuQGWJIkalPE+UFSkYAAVXQVIcQMI
+iQKIkCwYpr+A2QHb9Ie4rMFRCjaIGyIiK4iIEhENTWQ6oYwaEpAwxBRSkRMLraDD
+4OYoCbJU0+I9Xnin7f0D/599l07LYarLEkRUJshQdF1EKsGyLEmySJHKRLcDDDLb
+T3zMmc7ymVohKxOqkwXeLTM15gTrTPIXIpVXyULAtkKWZhXzg8JQKOBxeKHygAPc
+z6j3t4SXmn6dp8gJZcwOmpZf8IgcqYVMR1OEoiwjWYZKssAOBEybeU0HAVWEAV/O
+NdySR0CajhVZkQxNR4A/hIoRYxLSJLcoYrdODCxBDeqaxngWABpINQDGikg0Q9aJ
+4oQSZCV+S/DI3CYp4JJBs8BPQqU2E6ofdOdFuSJiXTOjZzi/yxU7O/7Pn1sxEuN6
+XzN/beOClOdLPnzP3rnkQnrD6BXhW2V9IP+Yr0WuGn7R1TrY0L+j/Vr6styONfKz
+CftaUs5ndggeO5GVad/ZG7OwjtSN5HcNPcp8mLmocWh99OG6gvFcz4a3sl5yt2aq
+fVleVdzXmVkrDl4uq0joH+hI6kucat16n7yr3bx6cXj0523ia/sya6w5X43tu7TS
+V3E0EoeXfuwZvHkLD+sTQ/N2pXReTPqxh718er6xpwhOZRyY01s+mXM6frJx/vLm
+bd7UunUZWzat+n49Yfxc4uns8L7ujpPuZvb4yNl76SDuTdqT18fDZ+rhQM7VJqD2
+dL4aTDt3Y+OnQdRyYXuUsWPs8y8gYkEm
+=FAmw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fomichev
+
+==================================================================
