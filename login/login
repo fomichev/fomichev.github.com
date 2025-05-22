@@ -1,0 +1,26 @@
+{
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlNDNhYzE0YS1kMDI1LTQyYTctOTg5Mi02MDRjZTc3Y2M0YWQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJzdGZvbWljaGV2QGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2hhc2giOiI3ZjBjYjQxOS0wZWViLTRhNDYtYWRlMi05MGRmZjNmYmNiM2YiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJwbGF5ZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoiNDUuODIuMTMuMTQ3IiwiaHR0cDovL3Vvb3V0bGFuZHMuY29tL2lkZW50aXR5L2NsYWltcy9wdXJwb3NlIjoiTG9naW5QYW5lbCIsImV4cCI6MTc0ODAxMjk5MCwiaXNzIjoiaHR0cHM6Ly9sb2dpbi51b291dGxhbmRzLmNvbSIsImF1ZCI6Imh0dHBzOi8vbG9naW4udW9vdXRsYW5kcy5jb20ifQ.eBTJB-n6j2MKu_AdQE6KnYsjhMJOYyNX_yvzToi726I",
+    "accountData": [
+        {
+            "accountName": "kasha"
+        }
+    ],
+    "servers": [
+        {
+            "serverName": "UO Outlands",
+            "port": "2593",
+            "iPs": [
+                "127.0.0.1",
+                "127.0.0.1"
+            ]
+        },
+        {
+            "serverName": "Test Server",
+            "port": "2593",
+            "iPs": [
+                "127.0.0.1",
+                "127.0.0.1"
+            ]
+        }
+    ]
+}

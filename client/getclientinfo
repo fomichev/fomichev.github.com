@@ -1,0 +1,20 @@
+{
+    "clientInfoText": "You are a clown",
+    "textType": 0,
+    "versionRestrictions": [
+        {
+            "serverName": "UO Outlands",
+            "minimumLiveVersion": 116,
+            "minimumBetaVersion": 308,
+            "isBetaAllowed": true
+        },
+        {
+            "serverName": "Test Server",
+            "minimumLiveVersion": 116,
+            "minimumBetaVersion": 311,
+            "isBetaAllowed": true
+        }
+    ],
+    "mostRecentLiveClientVersion": 118,
+    "mostRecentBetaClientVersion": 312
+}
